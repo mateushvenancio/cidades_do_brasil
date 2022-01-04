@@ -1,0 +1,19 @@
+{
+  "name": "cidades_do_brasil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateushvenancio/cidades_do_brasil.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateushvenancio/cidades_do_brasil/issues"
+  },
+  "homepage": "https://github.com/mateushvenancio/cidades_do_brasil#readme"
+}
