@@ -1,19 +1,12 @@
 const fs = require("fs");
-
-fs.writeFile(
-    "cidades.json",
-    JSON.stringify({ nome: "Mateus", idade: "23" }),
-    () => {}
-);
+const axios = require("axios");
 
 const baixarCidades = async () => {
-    try {
-        const response = await fetch(
-            "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/",
-            { method: "GET" }
-        );
+    const url = "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/";
 
-        const resultado = await response.json();
+    try {
+        const response = await axios.get(url);
+        const resultado = response.data;
 
         let objeto = [];
 

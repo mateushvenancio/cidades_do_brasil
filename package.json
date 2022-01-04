@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mateushvenancio/cidades_do_brasil/issues"
   },
-  "homepage": "https://github.com/mateushvenancio/cidades_do_brasil#readme"
+  "homepage": "https://github.com/mateushvenancio/cidades_do_brasil#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
 }
